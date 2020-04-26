@@ -1,0 +1,17 @@
+{
+  "name": "node_server_gen_using_ibm",
+  "version": "1.0.0",
+  "description": "A Node server random data generator with IBM connection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "data",
+    "IBM"
+  ],
+  "author": "kseg97",
+  "license": "ISC"
+}
