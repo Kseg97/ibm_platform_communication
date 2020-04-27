@@ -15,7 +15,21 @@ async function getData() {
     "Content-Type": "application/json"
   });
 
-  var raw = JSON.stringify({ "selector": {}, "limit": 10, "skip": 0 });
+  var raw = JSON.stringify({
+    "selector": {},
+    "fields": [
+      "_id",
+      "_rev",
+      "timestampCreated",
+      "value"
+    ],
+    "sort": [
+      {
+        "timestampCreated": "desc"
+      }
+    ],
+    limit: 20
+  });
 
   var requestOptions = {
     method: 'POST',
@@ -46,7 +60,7 @@ export default class App extends Component {
     this.dataInterval = setInterval(() => getData()
       .then(data => this.setState({ data: data.docs || this.state.data }))
       .catch((err) => console.error(err))
-      , 3000)
+      , 500)
   }
 
   componentWillUnmount() {

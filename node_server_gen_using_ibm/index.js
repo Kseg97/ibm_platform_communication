@@ -14,7 +14,7 @@ setTimeout(function () {
                 })
                 .catch(err => console.error(err));
         } catch (e) { }
-    }, 1000); // Interval to emulate the sensor update.
+    }, 250); // Interval to emulate the sensor update.
 }, 5000); // Timeout to initialize the DB connection. TODO: improve the connector to be async.
 
 /**
