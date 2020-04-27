@@ -13,5 +13,9 @@
     "IBM"
   ],
   "author": "kseg97",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.2.4",
+    "dotenv": "^8.2.0"
+  }
 }

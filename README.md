@@ -41,8 +41,9 @@ Download or clone this repo:
 `git clone https://github.com/Kseg97/ibm_platform_communication_examples`
 
 To download just press on the download button and unzip in your working env.
-Run `npm start` in the *node_server_gen_using_ibm* folder to execute the number generator.
-Run `expo start` in the *expo_react_client* folder to execute the Expo server and therefore your app in the Android client
+Run `npm install` and then `npm start` in the *node_server_gen_using_ibm* folder to execute the number generator.
+Run `npm install` and then `npm start` in the *expo_react_client* folder to execute the Expo server and therefore your app in the Android client
+Change *.env* with the team credentials.
 
 ## Server configuration
 

@@ -1,13 +1,12 @@
 {
   "expo": {
-    "name": "Expo IBM Data View",
+    "name": "expo_ibm_comm",
     "slug": "expo_ibm_comm",
     "platforms": [
       "ios",
       "android",
       "web"
     ],
-    "sdkVersion": "37.0.0",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
